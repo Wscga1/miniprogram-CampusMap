@@ -16,7 +16,7 @@
 “西浦在哪”已经上线一年了，当时答应同学的很多功能都鸽到了现在，趁着复习周和期中周有些空闲把他完善一下。这次最大的更新是把数据放在了云开发中而不是包里（感谢[宦成](https://github.com/bestony)的美食图鉴），然后有了详情页、搜索、导航、查看全部...
 还有许多可以完善的地方，比如详情页没有用富文本...
 ## Install
-- 将代码下载到本地，可以直接点击下载压缩包，也可以clone项目
+- 将代码下载到本地，可以直接点击下载压缩包，也可以clone项目。请将cloudfunctions.zip解压到和miniprogram一个目录下
 
 <div align=left><img src="https://www.xjtluyoupu.com/upload/2021/11/image-4dcddac9f1534335a98f995965f27fff.png"/></div>
 
