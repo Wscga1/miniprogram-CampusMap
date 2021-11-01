@@ -40,7 +40,7 @@
 <div align=left><img width= auto height="300" src="https://www.xjtluyoupu.com/upload/2021/11/image-154710402228421fb2392af28a693a7c.png"/></div>
 
 - 配置config.js
-> module.exports = {
+> module.exports = {\n
   "appName":"小程序的名字",
   "envID":"云开发的环境ID",
   "mapSubKey":"腾讯位置服务中的subkey",
