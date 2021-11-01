@@ -1,7 +1,9 @@
 # 菜狗识途
 ![License](https://img.shields.io/badge/License-GPL2.0-green.svg)
+
 校园导航导览微信小程序，扫描下方二维码体验
-![菜狗识途宣传.png](https://www.xjtluyoupu.com/upload/2021/11/%E8%8F%9C%E7%8B%97%E8%AF%86%E9%80%94%E5%AE%A3%E4%BC%A0-21bc29e8cf0d4ed5beb96f6419157fef.png)
+<div align=center><img width="150" height="150" src="https://www.xjtluyoupu.com/upload/2021/11/%E8%8F%9C%E7%8B%97%E8%AF%86%E9%80%94%E5%AE%A3%E4%BC%A0-21bc29e8cf0d4ed5beb96f6419157fef.png"/></div>
+
 ![介绍](https://user-images.githubusercontent.com/73621267/139591216-51cda3c7-3c50-4a7e-a046-48c4e78119b7.png)
 
 ## Table of Contents
