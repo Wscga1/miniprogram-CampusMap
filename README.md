@@ -17,7 +17,9 @@
 还有许多可以完善的地方，比如详情页没有用富文本...
 ## Install
 - 将代码下载到本地，可以直接点击下载压缩包，也可以clone项目
-![image.png](https://www.xjtluyoupu.com/upload/2021/11/image-4dcddac9f1534335a98f995965f27fff.png)
+
+<div align=left><img width="500" height="500" src="https://www.xjtluyoupu.com/upload/2021/11/image-4dcddac9f1534335a98f995965f27fff.png"/></div>
+
 - 注册一个[小程序账号](https://kf.qq.com/faq/170109iQBJ3Q170109JbQfiu.html)然后下载[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 - 开通腾讯位置服务如下图进入后开始[个性化地图](https://lbs.qq.com/product/miniapp/guide/)
 ![16357354321.png](https://www.xjtluyoupu.com/upload/2021/11/1635735432(1)-0e097d10d1ed44abac1918ed1f8e4cf9.png)
