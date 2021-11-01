@@ -18,11 +18,14 @@
 ## Install
 - 将代码下载到本地，可以直接点击下载压缩包，也可以clone项目
 
-<div align=left><img width="500" height="500" src="https://www.xjtluyoupu.com/upload/2021/11/image-4dcddac9f1534335a98f995965f27fff.png"/></div>
+<div align=left><img src="https://www.xjtluyoupu.com/upload/2021/11/image-4dcddac9f1534335a98f995965f27fff.png"/></div>
 
 - 注册一个[小程序账号](https://kf.qq.com/faq/170109iQBJ3Q170109JbQfiu.html)然后下载[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 - 开通腾讯位置服务如下图进入后开始[个性化地图](https://lbs.qq.com/product/miniapp/guide/)
-![16357354321.png](https://www.xjtluyoupu.com/upload/2021/11/1635735432(1)-0e097d10d1ed44abac1918ed1f8e4cf9.png)
+- 
+<div align=left><img width= auto height="300" src="https://www.xjtluyoupu.com/upload/2021/11/1635735432(1)-0e097d10d1ed44abac1918ed1f8e4cf9.png"/></div>
+
+
 - 导入项目：选择解压后的文件，然后填入appid（注册小程序账号后获得），最后选择[云开发](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
 ![16357343511.png](https://www.xjtluyoupu.com/upload/2021/11/1635734351(1)-18ba328f19cf4b71bc34af5f22fdf7e7.png)
 
