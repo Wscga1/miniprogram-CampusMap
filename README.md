@@ -40,7 +40,8 @@
 <div align=left><img width= auto height="300" src="https://www.xjtluyoupu.com/upload/2021/11/image-154710402228421fb2392af28a693a7c.png"/></div>
 
 - 配置config.js
-> module.exports = {\n
+```
+  module.exports = {
   "appName":"小程序的名字",
   "envID":"云开发的环境ID",
   "mapSubKey":"腾讯位置服务中的subkey",
@@ -49,6 +50,7 @@
   "dynamic_title":false,//动态详情页标题
   "show_admin":false,//是否显示管理员入口
 }
+```
 - 设置管理员：获取openid（一种长按管理入口可复制到粘贴板，另一种可以使用[接口测试账号](https://blog.csdn.net/HezhezhiyuLe/article/details/109352740)）
 获取openid后，进入云开发控制台，点击云函数，找到checkUserAuth，点击版本与配置后再点击配置，出现如下图所示内容Key中填入 `ADMIN `，Value中填入 `你的openid`，如设置多名管理员则用|隔开
 
