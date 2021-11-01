@@ -1,0 +1,54 @@
+<map id="map" longitude='{{longitude}}' latitude='{{latitude}}'
+  style='height:{{windowHeight}}px' markers="{{markers}}" subkey="{{mapSubKey}}" show-compass="{{true}}"
+  show-location="{{true}}" bindmarkertap="onMarkerTap" scale="16.8">
+  <!-- 上方的添加提醒 -->
+  <!-- <block wx:if="{{!hideMe}}">
+    <cover-view class="add_me" bindtap="hideMe">添加到【我的小程序】更快找到我</cover-view>
+    <cover-view class="up" bindtap="hideMe"></cover-view>
+  </block> -->
+  <!-- 管理入口 -->
+  <cover-view class="cover" wx:if="{{showAdmin}}" style="opacity:{{0.9}}">
+    <button class='button' open-type='getUserInfo' bindgetuserinfo='getUserInfo' bindlongpress='getOpenID'
+      lang='zh_CN'>管理入口</button>
+  </cover-view>
+  <!-- 搜索按钮 -->
+  <cover-view wx:else class="cover" style="opacity:{{0.9}}">
+    <button class='button' bindtap='search'  >搜索</button>
+  </cover-view>
+  <!-- 查看全部 -->
+  <cover-view class="button show_all" bindtap="viewAll" bindlongpress='showAdmin' style="opacity:{{0.9}}">查看全部</cover-view>
+  <!-- 定位 -->
+  <cover-view class="getLocation" bindtap="getCenterLocation">
+    <cover-image style="opacity:{{0.9}}"  src="/images/getLocation.png"></cover-image>
+  </cover-view>
+  
+  <!--跳转有浦 -->
+    
+      <navigator class="list" target="miniProgram" open-type="navigate" app-id="想要跳转的appid" path="" extra-data="" version="release">
+        <cover-image  src="/images/youpu.png"></cover-image>
+            </navigator>
+<!--
+     分类
+ -->
+<scroll-view scroll-y="true" class='tab-h'show-scrollbar="false">
+  <view wx:for="{{pages>100?pages:100}}" bindtap="tabSelect" style=" line-height:60rpx;">
+   
+  <navigator class="type" url="../type1/map"  bindtap="toType1">{{index==1?'楼体':''}}</navigator>
+  <navigator class="type" url="../type2/map"  bindtap="toType2">{{index==2? '打印机':''}}</navigator>
+  <navigator class="type" url="../type3/map"  bindtap="toType2">{{index==3? '餐饮':''}}</navigator>
+  <navigator class="type" url="../type4/map"  bindtap="toType2">{{index==4? '便利店':''}}</navigator>
+  <navigator class="type" url="../type5/map"  bindtap="toType2">{{index==5? '咖啡机':''}}</navigator>
+  <navigator class="chouse_type" url="../type6/map"  bindtap="toType2">{{index==6? '售货机':''}}</navigator>
+  <navigator class="type" url="../type7/map"  bindtap="toType2">{{index==7? '充电桩':''}}</navigator>
+  <navigator class="type" url="../type8/map"  bindtap="toType2">{{index==8? '通宵教室':''}}</navigator>
+  <navigator class="type" url="../type9/map"  bindtap="toType2">{{index==9? '西浦秀':''}}</navigator>
+  <navigator class="type" url="../type10/map"  bindtap="toType2">{{index==10? '交通':''}}</navigator>
+  <navigator class="type" url="../type11/map"  bindtap="toType2">{{index==11? '饮水机':''}}</navigator>
+  <navigator class="type" url="../type12/map"  bindtap="toType2">{{index==12? '厕所':''}}</navigator>
+  <navigator class="type" url="../type13/map"  bindtap="toType2">{{index==13? '周边设施':''}}</navigator>
+  <navigator class="type" url="../type14/map"  bindtap="toType2">{{index==14? '停车场':''}}</navigator>
+
+  </view>
+ </scroll-view> 
+
+</map>

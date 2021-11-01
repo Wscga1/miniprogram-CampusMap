@@ -1,0 +1,107 @@
+map {
+  width: 750rpx;
+}
+
+.show_all {
+  position: absolute;
+  right: 100rpx;
+  bottom: 100rpx;
+  color: rgb(62, 207, 142);
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+}
+
+.cover {
+  color: #fff;
+  height: 100rpx;
+  width: 220rpx;
+  line-height: 100rpx;
+  font-size: 35rpx;
+  text-align: center;
+  position: absolute;
+  left: 100rpx;
+  bottom: 100rpx;
+  border-radius: 50rpx;
+  text-shadow: 0 1px 3px rgba(36, 180, 126, .4);
+}
+
+.add_me {
+  font-size: 30rpx;
+  color: #fff;
+  background-color: rgb(62, 207, 142);
+  width: 450rpx;
+  padding: 20rpx;
+  position: absolute;
+  right: 10rpx;
+  top: 20rpx;
+  text-align: center;
+}
+
+.up {
+  position: absolute;
+  right: 150rpx;
+  top: 5rpx;
+  border-right: 20rpx solid transparent;
+  border-left: 20rpx solid transparent;
+  border-bottom: 20rpx solid rgb(62, 207, 142);
+}
+
+.getLocation {
+  position: absolute;
+  left: 20rpx;
+  bottom: 250rpx;
+  text-align: center;
+  width: 20px;
+  background-color:rgb(255, 255, 255,0.9);
+  padding: 13px;
+  box-shadow: 1px 2px 3px #999999;
+  border-radius: 100px;
+}
+
+ .list {
+  position: absolute;
+  left: 20rpx;
+  bottom: 360rpx;
+  text-align: center;
+  width: 20px;
+  background-color: rgb(62, 207, 142,0.9);
+  padding: 13px;
+  box-shadow: 1px 2px 3px #999999;
+  border-radius: 100px;
+}
+
+.tab-h{
+  height: 400rpx;
+  width: 140rpx; 
+  bottom:250rpx;
+  right: 12px;
+  box-sizing: border-box;
+  overflow: hidden;
+  line-height: 80rpx;
+  background: rgba(255, 255, 255, 0.9); 
+  font-size: 16px;
+   white-space: nowrap;
+   position: fixed;
+   z-index: 99;
+   border-radius: 10px;
+}
+.chouse_type {
+  font-size: 32rpx;
+  color: rgb(62, 207, 142);
+  text-align: center;
+}
+.type {
+  font-size: 32rpx;
+  
+  color: rgb(192, 192, 192);
+  text-align: center;
+}
+scroll-view ::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  color: transparent;
+  display: none;
+}
+
+
+

@@ -1,0 +1,84 @@
+.slide-image {
+  width: 750rpx;
+  height: 240px;
+}
+
+.contact {
+  padding: 20rpx;
+}
+
+.star {
+  padding: 20rpx;
+}
+
+.keywords {
+  padding: 20rpx;
+}
+
+.notes {
+  padding: 20rpx;
+  color: rgb(62, 207, 142);
+  font-size: 35rpx;
+  font-weight: 700;
+}
+.notes1 {
+  padding: 20rpx;
+  color: #292421;
+}
+
+
+.per {
+  padding: 20rpx;
+}
+
+.address {
+  padding: 20rpx;
+}
+
+.thumbs_up {
+  padding: 20rpx;
+}
+
+.title {
+  padding: 20rpx;
+  font-size: 50rpx;
+  font-weight: 700;
+  color: rgb(62, 207, 142);
+}
+
+swiper {
+  height: 240px;
+  background-color: #eee;
+}
+
+.two_column {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.copy_path{
+  position: absolute;
+  right: 100rpx;
+  bottom: 50rpx;
+  color: #7795f8;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+.delete_item{
+  position: absolute;
+  left: 100rpx;
+  bottom: 50rpx;
+  color: #ff0000;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+.navigateBox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20rpx;
+}
+.navigate{
+  margin:20rpx 0rpx;
+}

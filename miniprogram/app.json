@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/type1/map",
+    "pages/type2/map",
+    "pages/type3/map",
+    "pages/type4/map",
+    "pages/type5/map",
+    "pages/type6/map",
+    "pages/type7/map",
+    "pages/type8/map",
+    "pages/type9/map",
+    "pages/type10/map",
+    "pages/type11/map",
+    "pages/type12/map",
+    "pages/type13/map",
+    "pages/type14/map",
+    "pages/list/list",
+    "pages/info/info",
+    "pages/add/add",
+    "pages/search/search"
+  ],
+  "window": {
+    "backgroundColor": "#3ecf8e",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#3ecf8e",
+    "navigationBarTitleText": "菜狗识途",
+    "navigationBarTextStyle": "white"
+  },
+  
+  
+  "permission": {
+    "scope.userLocation": {
+      "desc": "您的位置信息仅在使用小程序时被获取"
+    }
+  },
+  "sitemapLocation": "sitemap.json"
+}

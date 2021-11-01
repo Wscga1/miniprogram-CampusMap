@@ -1,0 +1,27 @@
+<form report-submit='true' onsubmit="createItem">
+  <view class='desc'>位置设定</view>
+  <view class="loactionGroup">
+    <button bindtap='chooseLocation' type='primary'>地图选址</button>
+  </view>
+  <view class='desc'>名称设定</view>
+  <input placeholder='请输入资源的名称' name="title" value='{{name}}'></input>
+  <view class='desc'>label设定</view>
+  <input placeholder='请输入label的名称' name="label" value='{{label}}'></input>
+  <view class='desc'>地址设定</view>
+  <input placeholder='请输入大概的位置' name="address" value='{{address}}'></input>
+  <view class='desc'>类型设定</view>
+  <input placeholder='请输入类型' name="type" value='{{type}}'></input>
+  <view class='desc'>电话设定</view>
+  <input placeholder='空' name="contact" value='{{phone}}'></input>
+  <view class='desc'>人均价格设定</view>
+  <input placeholder='空' name="price_per" type="number" value='{{price_per}}'></input>
+  <view class='desc'>关键词设定</view>
+  <input placeholder='空' name="keywords" value='{{price_per}}'></input>
+  <view class='desc'>详情信息</view>
+  <textarea placeholder='请输入' name="notes" value="{{notes}}"></textarea>
+  <view class='desc'>评分</view>
+  <input placeholder='空' name="star" value="{{star}}"></input>
+  <view class='desc'>照片</view>
+  <button bindtap='uploadImage'>点击选择或拍摄照片</button>
+  <button class='submit' type="primary" form-type='submit'>创建</button>
+</form>

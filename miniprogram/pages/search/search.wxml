@@ -1,0 +1,30 @@
+<view class="search_box">
+  <input bindinput="Search" class='search_input' type="text" confirm-type="search" placeholder="请输入关键词" bindconfirm="search" focus='{{focus}}'></input>
+</view>
+<block wx:if="{{stores}}" wx:for="{{stores}}" wx:key="_id">
+  <navigator url="../info/info?id={{item._id}}">
+    <view class="card">
+      <view class="card_title">{{item.title}}</view>
+    </view>
+  </navigator>
+</block>
+
+
+<block wx:if="{{searched}}">
+  <view class="no_result_button">
+    <view>
+    <text class="wujieguo">如果问题没有解决 请查看全部或进入有浦</text>
+   
+    <text class="wujieguo"></text>
+    
+    </view>
+    <navigator url="../list/list" open-type="redirect" class="button view_all">查看全部</navigator>
+  
+    <navigator class="button view_all" target="miniProgram" open-type="navigate" app-id="想要跳转的appid" path="" extra-data="" version="release">
+                有浦
+            </navigator>
+
+
+    
+  </view>
+</block>
