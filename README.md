@@ -22,20 +22,22 @@
 
 - 注册一个[小程序账号](https://kf.qq.com/faq/170109iQBJ3Q170109JbQfiu.html)然后下载[微信开发者工具](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html)
 - 开通腾讯位置服务如下图进入后开始[个性化地图](https://lbs.qq.com/product/miniapp/guide/)
-- 
+
 <div align=left><img width= auto height="300" src="https://www.xjtluyoupu.com/upload/2021/11/1635735432(1)-0e097d10d1ed44abac1918ed1f8e4cf9.png"/></div>
 
-
 - 导入项目：选择解压后的文件，然后填入appid（注册小程序账号后获得），最后选择[云开发](https://developers.weixin.qq.com/miniprogram/dev/wxcloud/basis/getting-started.html)
-![16357343511.png](https://www.xjtluyoupu.com/upload/2021/11/1635734351(1)-18ba328f19cf4b71bc34af5f22fdf7e7.png)
 
+<div align=left><img width= auto height="300" src="https://www.xjtluyoupu.com/upload/2021/11/1635734351(1)-18ba328f19cf4b71bc34af5f22fdf7e7.png"/></div>
 
 - 云开发设置：进入云开发控制台后点击数据库后添加集合 `store`和 `userInfo`
  `store`为所有用户可读，仅创建者可读写
  `userInfo`为仅创建者可读写
-![16357346811.png](https://www.xjtluyoupu.com/upload/2021/11/1635734681(1)-37eaa0ab46b8457a8fce11e689a81608.png)
+ 
+<div align=left><img width= auto height="300" src="https://www.xjtluyoupu.com/upload/2021/11/1635734681(1)-37eaa0ab46b8457a8fce11e689a81608.png"/></div>
+
 选择好云环境后将checkUserAuth，getStore和getUserOpenId都上传部署一下
-![image.png](https://www.xjtluyoupu.com/upload/2021/11/image-154710402228421fb2392af28a693a7c.png)
+
+<div align=left><img width= auto height="300" src="https://www.xjtluyoupu.com/upload/2021/11/image-154710402228421fb2392af28a693a7c.png"/></div>
 
 - 配置config.js
 > module.exports = {
@@ -49,7 +51,9 @@
 }
 - 设置管理员：获取openid（一种长按管理入口可复制到粘贴板，另一种可以使用[接口测试账号](https://blog.csdn.net/HezhezhiyuLe/article/details/109352740)）
 获取openid后，进入云开发控制台，点击云函数，找到checkUserAuth，点击版本与配置后再点击配置，出现如下图所示内容Key中填入 `ADMIN `，Value中填入 `你的openid`，如设置多名管理员则用|隔开
-![16357365091.png](https://www.xjtluyoupu.com/upload/2021/11/1635736509(1)-bd124c37972442cda02b41dfffd377c5.png)
+
+<div align=left><img width= auto height="300" src="https://www.xjtluyoupu.com/upload/2021/11/1635736509(1)-bd124c37972442cda02b41dfffd377c5.png"/></div>
+
 ## Contributors
 <table>
   <tr>
