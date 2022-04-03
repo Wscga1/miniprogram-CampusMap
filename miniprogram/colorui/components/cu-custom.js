@@ -8,7 +8,7 @@ Component({
     multipleSlots: true
   },
   /**
-   * 组件的对外属性
+   * 组件的对外属性1
    */
   properties: {
     bgColor: {
